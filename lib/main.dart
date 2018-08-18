@@ -5,7 +5,7 @@ void main(){
   runApp(
     new MaterialApp(
       title:"Hello",
-      home:new Home()
+      home:new Home(),
 
     )
   );
