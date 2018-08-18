@@ -15,7 +15,11 @@ class Home extends StatelessWidget {
         padding: EdgeInsets.all(75.0),
         child: new Text("Welcome Ajay!",
             textAlign: TextAlign.center,
-            style: new TextStyle(fontSize: 30.0, fontWeight: FontWeight.w800)),
+            style: new TextStyle(fontSize: 30.0, fontWeight: FontWeight.w800)
+            
+            ),
+
+      
       ),
       
     );
