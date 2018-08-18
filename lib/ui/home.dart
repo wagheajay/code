@@ -4,6 +4,7 @@ class Home extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return new Scaffold(
+     
       appBar: new AppBar(
         title: new Text("Hello Flutter"),
         backgroundColor: Colors.blue,
@@ -18,10 +19,13 @@ class Home extends StatelessWidget {
             style: new TextStyle(fontSize: 30.0, fontWeight: FontWeight.w800)
             
             ),
-
+      
       
       ),
+      backgroundColor: Colors.blue,
       
     );
+
   }
-}
+  }
+
