@@ -9,17 +9,24 @@ class Home extends StatelessWidget {
         title: new Text("Hello Flutter"),
         backgroundColor: Colors.blue,
       ),
-      body: new Container(
-        width: 420.0,
+      body: new Column(
+        
+        
+        children: <Widget>[
+          new Container(
+            width: 420.0,
         height: 210.0,
         color: Colors.pink,
-        padding: EdgeInsets.all(75.0),
-        child: new Text("Welcome Ajay!",
-            textAlign: TextAlign.center,
-            style: new TextStyle(fontSize: 30.0, fontWeight: FontWeight.w800)
-            
-            ),
-      
+        //padding: EdgeInsets.all(75.0),
+
+          ),
+          new Container(
+            width: 420.0,
+        height: 210.0,
+        color: Colors.green,
+
+          )
+        ],
       
       ),
       backgroundColor: Colors.blue,
